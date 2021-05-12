@@ -1,0 +1,24 @@
+<html>
+    <body>
+    <h1 style="color: mediumblue;">
+    Todos hacemos kk XD
+    {# no tocar esto XD#}
+    </h1>
+    {% include "plantilla2.html" %}
+    <p> el persolan que programo esto es {{nombre_persona|upper}}</p>
+    <p> Lista x:</p>
+    <p>
+        <ul>
+        {% for I in lista %}
+            <li>{{I }}</li>
+        {% endfor %}
+        </ul>
+    </p>
+    <p> El dia de hoy es {{fecha.day}}/{{fecha.month}}/{{fecha.year}}</p>
+    {% if nombre_persona == 'Simio' %}
+        <p>Hoy se come</p>
+    {% else %}
+        <p>hoy no se come .i.</p>
+    {% endif %}
+    </body>
+    </html>

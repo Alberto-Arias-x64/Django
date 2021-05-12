@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+
+    <!-- Bootstrap CSS -->
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static '3D/css/bootstrap.css' %}">
+
+    <style type="text/css">
+        .borde{
+            background-color: grey;
+            height: 200px;
+        }
+        .borde1{
+            background-color: aquamarine;
+            text-align: center;
+            height: 50px;
+        }
+        .borde2{
+            background-color: olivedrab;
+            text-align: center;
+            height: 50px;
+        }
+        .borde3{
+            background-color: orangered;
+            text-align: center;
+            height: 50px;
+        }
+    </style>
+
+    <title>3D Frogy</title>
+  </head>
+  <body>
+    <h1>holo </h1>
+    <p>como se hace la tarea?</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-4 col- xl-8 borde1"> <p class="text-light">Caca1</p> </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 col- xl-2 borde2"> <p>Caca2</p> </div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col- xl-2 borde3"> <p>Caca3</p> </div>
+        </div>
+        <div class="row">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iure quia temporibus officia, odio quo, perspiciatis vel quidem error non ut! Fugit, ipsam debitis. Nobis nemo ipsam aliquam officia sequi.</p>
+        </div>
+        <div class="row ">
+            <button type="button" class="btn btn-outline-dark ">Enviar</button>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{% static '3D/js/jquery-3.5.1.slim.min.js' %}"></script>
+    <script src="{% static '3D/js/popper.min.js' %}"></script>
+    <script src="{% static '3D/js/bootstrap.min.js' %}"></script>
+  </body>
+</html>
